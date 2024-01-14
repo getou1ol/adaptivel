@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.home {
+  color: rgb(199, 198, 198);
+  font-family: "Roboto", sans-serif;
+  font-size: 26px;
+  padding-top: 120px;
+  padding-left: 115px;
+}
+
+.main {
+  background-color: rgb(30, 83, 83);
+  width: 1200px;
+  height: 700px;
+  margin: auto;
+  margin-top: 200px;
+}
+
+.res {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 56px;
+  font-weight: 700;
+  padding-left: 115px;
+}
+
+.main-p {
+  display: grid;
+  grid-template-rows: none;
+  grid-row-gap: 45px;
+}
+
+.autp {
+  color: rgb(199, 198, 198);
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+}
+
+.geoff {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+}
+
+.text-p {
+  display: grid;
+  grid-template-rows: none;
+}
+
+.text-p-img {
+  display: grid;
+  grid-template-columns: repeat(4, 200px);
+}
+
+.text-img-p-img {
+  display: grid;
+  grid-template-columns: repeat(5, 100px);
+  padding-left: 115px;
+  padding-top: 70px;
+}
+
+@media screen and (max-width: 1200px) {
+  .main {
+    max-width: 970px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .main {
+    max-width: 750px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .main {
+    max-width: 850px;
+  }
+}
+@media screen and (max-width: 467px) {
+  .main {
+    max-width: none;
+  }
+}/*# sourceMappingURL=style.css.map */
